@@ -1,0 +1,41 @@
+.UCT{
+    color: darkblue;
+}
+.nerd-face{
+    width: 50px;
+    
+}
+.competency-list{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+.gradient-background {
+    background: linear-gradient(300deg,#C5FFF8, #96EFFF, #5FBDFF);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.memoji{
+    background-color: transparent;
+}
+.heading{
+    font-size:5rem;
+    color: white;
+}
+.contact-details{
+    display: grid;
+    grid-template-rows: repeat(4, 200px);
+    grid-template-columns: 200px 400px;
+}
